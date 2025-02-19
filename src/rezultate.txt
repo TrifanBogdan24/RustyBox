@@ -1,0 +1,495 @@
+Running all tests
+Verifying chmod_add_multiple.sh......................ok (20p/20p)
+Verifying chmod_add_one.sh...........................ok (15p/15p)
+Verifying chmod_all.sh...............................ok (20p/20p)
+Verifying chmod_del_multiple.sh......................ok (20p/20p)
+Verifying chmod_del_one.sh...........................ok (15p/15p)
+Verifying chmod_number.sh..............................ok (5p/5p)
+Verifying chmod_user_group.sh........................ok (20p/20p)
+Verifying pwd.sh.......................................ok (5p/5p)
+Verifying echo_multiple.sh...........................ok (10p/10p)
+Verifying echo_nodescription.sh......................ok (10p/10p)
+Verifying echo_shell.sh..............................ok (10p/10p)
+Verifying grep_simple.sh.............................ok (10p/10p)
+Verifying ls_all_r.sh..............................error (0p/25p)
+Verifying ls_all.sh................................error (0p/20p)
+Verifying ls_dir.sh................................error (0p/10p)
+Verifying ls_err.sh.................................error (0p/5p)
+Command does not fail with exit code -80.
+Verifying ls_file.sh................................error (0p/5p)
+ls does not print file passed as parameter
+Verifying ls_l_r.sh................................error (0p/25p)
+Verifying ls_l.sh..................................error (0p/25p)
+Verifying ls_r.sh..................................error (0p/20p)
+Verifying ls_simple.sh.............................error (0p/10p)
+Verifying invalid_chmod.sh...........................ok (10p/10p)
+Verifying invalid_command.sh...........................ok (5p/5p)
+Verifying invalid_parameters2.sh.....................ok (10p/10p)
+Verifying invalid_parameters.sh........................ok (5p/5p)
+Verifying cp_error_dir.sh............................ok (10p/10p)
+Verifying cp_error_file.sh.............................ok (5p/5p)
+Verifying cp_rename_dir.sh...........................ok (20p/20p)
+Verifying cp_r_file.sh...............................ok (10p/10p)
+Verifying cp_r.sh..................................error (0p/15p)
+Destination directory does not exist.
+Verifying cp_simple_file.sh..........................ok (10p/10p)
+Verifying cp_simple_rename.sh........................ok (10p/10p)
+Verifying rm_cascade.sh..............................ok (15p/15p)
+Verifying rm_dir.sh..................................ok (10p/10p)
+Verifying rm_empty_dir.sh............................ok (10p/10p)
+Verifying rm_error_dir.sh............................ok (10p/10p)
+Verifying rm_error_exists.sh...........................ok (5p/5p)
+Verifying rm_file.sh...................................ok (5p/5p)
+Verifying rm_multiple_files.sh.........................ok (5p/5p)
+Verifying rm_multiple_mixed.sh.......................ok (15p/15p)
+Verifying rm_recursive.sh............................ok (15p/15p)
+Verifying cat_error.sh.................................ok (5p/5p)
+Verifying cat_simple.sh................................ok (5p/5p)
+Verifying cat_triple.sh................................ok (5p/5p)
+Verifying mkdir_error.sh...............................ok (5p/5p)
+Verifying mkdir_multiple.sh............................ok (5p/5p)
+Verifying mkdir_path_multiple.sh.......................ok (5p/5p)
+Verifying mkdir_path.sh................................ok (5p/5p)
+Verifying mkdir_simple.sh..............................ok (5p/5p)
+Verifying mkdir_spaces.sh..............................ok (5p/5p)
+Verifying rmdir_empty_error.sh.........................ok (5p/5p)
+Verifying rmdir_exists_error.sh........................ok (5p/5p)
+Verifying rmdir_link.sh................................ok (5p/5p)
+Verifying rmdir_multiple.sh............................ok (5p/5p)
+Verifying rmdir_simple.sh..............................ok (5p/5p)
+Verifying touch_a.sh...............................error (0p/10p)
+Touch -a does not update access time correctly.
+Verifying touch_m.sh...............................error (0p/10p)
+Touch -m does not update modify time correctly.
+Verifying touch_no_create_new.sh...................error (0p/10p)
+Touch -c creates new file.
+Verifying touch_simple_exists.sh...................error (0p/10p)
+Touch on does not update access and modify times.
+Verifying touch_simple.sh..............................ok (5p/5p)
+Verifying ln_error.sh..................................ok (5p/5p)
+Verifying ln_simple.sh.................................ok (5p/5p)
+Verifying ln_s.sh....................................ok (10p/10p)
+Verifying ln_symbolic.sh.............................ok (10p/10p)
+Verifying echo_multiple.sh.............................ok (5p/5p)
+Verifying echo_newline_multiple.sh.....................ok (5p/5p)
+Verifying echo_newline_simple.sh.......................ok (5p/5p)
+Verifying echo_simple.sh...............................ok (5p/5p)
+Verifying echo_spaces.sh...............................ok (5p/5p)
+Verifying mv_dir.sh....................................ok (5p/5p)
+Verifying mv_error.sh..................................ok (5p/5p)
+Verifying mv_simple.sh.................................ok (5p/5p)
+Tests:  58 / 72
+Points: 490 / 690
+Mark without penalties: 8.1
+/home/bogdan/Documents/INFORMATICĂ/Facultate/PCLP 4 = RUST/teme/tema-1/rustybox-TrifanBogdan24/tests/node_modules/@octokit/core/dist-node/index.js:37
+  static {
+         ^
+
+SyntaxError: Unexpected token '{'
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/bogdan/Documents/INFORMATICĂ/Facultate/PCLP 4 = RUST/teme/tema-1/rustybox-TrifanBogdan24/tests/node_modules/@actions/github/lib/utils.js:30:16)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+
+Test chmod_add_multiple.sh
+
+Test chmod_add_one.sh
+
+Test chmod_all.sh
+
+Test chmod_del_multiple.sh
+
+Test chmod_del_one.sh
+
+Test chmod_number.sh
+
+Test chmod_user_group.sh
+
+Test pwd.sh
+/home/bogdan/Documents/INFORMATICĂ/Facultate/PCLP 4 = RUST/teme/tema-1/rustybox-TrifanBogdan24/tests
+
+Test echo_multiple.sh
+
+Test echo_nodescription.sh
+messagebus:x:102:105::/nonexistent:/usr/sbin/nologin
+syslog:x:104:111::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+uuidd:x:107:115::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:109:117::/nonexistent:/usr/sbin/nologin
+whoopsie:x:117:124::/nonexistent:/bin/false
+saned:x:122:129::/var/lib/saned:/usr/sbin/nologin
+geoclue:x:124:131::/var/lib/geoclue:/usr/sbin/nologin
+gnome-initial-setup:x:126:65534::/run/gnome-initial-setup/:/bin/false
+mongodb:x:129:65534::/home/mongodb:/usr/sbin/nologin
+
+Test echo_shell.sh
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:102:105::/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:103:106:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+syslog:x:104:111::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+uuidd:x:107:115::/run/uuidd:/usr/sbin/nologin
+systemd-oom:x:108:116:systemd Userspace OOM Killer,,,:/run/systemd:/usr/sbin/nologin
+tcpdump:x:109:117::/nonexistent:/usr/sbin/nologin
+avahi-autoipd:x:110:119:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:111:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+dnsmasq:x:112:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+kernoops:x:113:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+avahi:x:114:121:Avahi mDNS daemon,,,:/run/avahi-daemon:/usr/sbin/nologin
+cups-pk-helper:x:115:122:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+rtkit:x:116:123:RealtimeKit,,,:/proc:/usr/sbin/nologin
+sssd:x:118:125:SSSD system user,,,:/var/lib/sss:/usr/sbin/nologin
+fwupd-refresh:x:120:126:fwupd-refresh user,,,:/run/systemd:/usr/sbin/nologin
+nm-openvpn:x:121:127:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+saned:x:122:129::/var/lib/saned:/usr/sbin/nologin
+colord:x:123:130:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+geoclue:x:124:131::/var/lib/geoclue:/usr/sbin/nologin
+pulse:x:125:132:PulseAudio daemon,,,:/run/pulse:/usr/sbin/nologin
+mongodb:x:129:65534::/home/mongodb:/usr/sbin/nologin
+
+Test grep_simple.sh
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+
+Test ls_all_r.sh
+thread 'main' panicked at src/main.rs:964:5:
+not yet implemented
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+ls prints extra files/directories
+[
+  "thread 'main' panicked at src/main.rs:964:5:",
+  'not yet implemented',
+  'note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace'
+]
+
+
+Test ls_all.sh
+thread 'main' panicked at src/main.rs:964:5:
+not yet implemented
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+ls prints extra files/directories
+[
+  "thread 'main' panicked at src/main.rs:964:5:",
+  'not yet implemented',
+  'note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace'
+]
+
+
+Test ls_dir.sh
+thread 'main' panicked at src/main.rs:964:5:
+not yet implemented
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+ls prints extra files/directories
+[
+  "thread 'main' panicked at src/main.rs:964:5:",
+  'not yet implemented',
+  'note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace'
+]
+
+
+Test ls_err.sh
+thread 'main' panicked at src/main.rs:964:5:
+not yet implemented
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+Test ls_file.sh
+thread 'main' panicked at src/main.rs:964:5:
+not yet implemented
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+Test ls_l_r.sh
+thread 'main' panicked at src/main.rs:964:5:
+not yet implemented
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+ls prints extra files/directories
+[
+  "thread 'main' panicked at src/main.rs:964:5:",
+  'not yet implemented',
+  'note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace'
+]
+
+
+Test ls_l.sh
+thread 'main' panicked at src/main.rs:964:5:
+not yet implemented
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+ls prints extra files/directories
+[
+  "thread 'main' panicked at src/main.rs:964:5:",
+  'not yet implemented',
+  'note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace'
+]
+
+
+Test ls_r.sh
+thread 'main' panicked at src/main.rs:964:5:
+not yet implemented
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+ls prints extra files/directories
+[
+  "thread 'main' panicked at src/main.rs:964:5:",
+  'not yet implemented',
+  'note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace'
+]
+
+
+Test ls_simple.sh
+thread 'main' panicked at src/main.rs:964:5:
+not yet implemented
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+ls prints extra files/directories
+[
+  "thread 'main' panicked at src/main.rs:964:5:",
+  'not yet implemented',
+  'note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace'
+]
+
+
+Test invalid_chmod.sh
+Invalid command
+
+Test invalid_command.sh
+Invalid command
+
+Test invalid_parameters2.sh
+Invalid command
+
+Test invalid_parameters.sh
+Invalid command
+
+Test cp_error_dir.sh
+
+Test cp_error_file.sh
+
+Test cp_rename_dir.sh
+
+Test cp_r_file.sh
+
+Test cp_r.sh
+
+
+Test cp_simple_file.sh
+
+Test cp_simple_rename.sh
+
+Test rm_cascade.sh
+
+Test rm_dir.sh
+
+Test rm_empty_dir.sh
+
+Test rm_error_dir.sh
+
+Test rm_error_exists.sh
+
+Test rm_file.sh
+
+Test rm_multiple_files.sh
+
+Test rm_multiple_mixed.sh
+
+Test rm_recursive.sh
+
+Test cat_error.sh
+
+Test cat_simple.sh
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:102:105::/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:103:106:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+syslog:x:104:111::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+tss:x:106:112:TPM software stack,,,:/var/lib/tpm:/bin/false
+uuidd:x:107:115::/run/uuidd:/usr/sbin/nologin
+systemd-oom:x:108:116:systemd Userspace OOM Killer,,,:/run/systemd:/usr/sbin/nologin
+tcpdump:x:109:117::/nonexistent:/usr/sbin/nologin
+avahi-autoipd:x:110:119:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:111:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+dnsmasq:x:112:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+kernoops:x:113:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+avahi:x:114:121:Avahi mDNS daemon,,,:/run/avahi-daemon:/usr/sbin/nologin
+cups-pk-helper:x:115:122:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+rtkit:x:116:123:RealtimeKit,,,:/proc:/usr/sbin/nologin
+whoopsie:x:117:124::/nonexistent:/bin/false
+sssd:x:118:125:SSSD system user,,,:/var/lib/sss:/usr/sbin/nologin
+speech-dispatcher:x:119:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+fwupd-refresh:x:120:126:fwupd-refresh user,,,:/run/systemd:/usr/sbin/nologin
+nm-openvpn:x:121:127:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+saned:x:122:129::/var/lib/saned:/usr/sbin/nologin
+colord:x:123:130:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+geoclue:x:124:131::/var/lib/geoclue:/usr/sbin/nologin
+pulse:x:125:132:PulseAudio daemon,,,:/run/pulse:/usr/sbin/nologin
+gnome-initial-setup:x:126:65534::/run/gnome-initial-setup/:/bin/false
+hplip:x:127:7:HPLIP system user,,,:/run/hplip:/bin/false
+gdm:x:128:134:Gnome Display Manager:/var/lib/gdm3:/bin/false
+bogdan:x:1000:1000:Trifan Bogdan,,,:/home/bogdan:/bin/bash
+mongodb:x:129:65534::/home/mongodb:/usr/sbin/nologin
+lightdm:x:130:140:Light Display Manager:/var/lib/lightdm:/bin/false
+
+Test cat_triple.sh
+donuts
+ay caramba
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:102:105::/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:103:106:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+syslog:x:104:111::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+tss:x:106:112:TPM software stack,,,:/var/lib/tpm:/bin/false
+uuidd:x:107:115::/run/uuidd:/usr/sbin/nologin
+systemd-oom:x:108:116:systemd Userspace OOM Killer,,,:/run/systemd:/usr/sbin/nologin
+tcpdump:x:109:117::/nonexistent:/usr/sbin/nologin
+avahi-autoipd:x:110:119:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:111:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+dnsmasq:x:112:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+kernoops:x:113:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+avahi:x:114:121:Avahi mDNS daemon,,,:/run/avahi-daemon:/usr/sbin/nologin
+cups-pk-helper:x:115:122:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+rtkit:x:116:123:RealtimeKit,,,:/proc:/usr/sbin/nologin
+whoopsie:x:117:124::/nonexistent:/bin/false
+sssd:x:118:125:SSSD system user,,,:/var/lib/sss:/usr/sbin/nologin
+speech-dispatcher:x:119:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+fwupd-refresh:x:120:126:fwupd-refresh user,,,:/run/systemd:/usr/sbin/nologin
+nm-openvpn:x:121:127:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+saned:x:122:129::/var/lib/saned:/usr/sbin/nologin
+colord:x:123:130:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+geoclue:x:124:131::/var/lib/geoclue:/usr/sbin/nologin
+pulse:x:125:132:PulseAudio daemon,,,:/run/pulse:/usr/sbin/nologin
+gnome-initial-setup:x:126:65534::/run/gnome-initial-setup/:/bin/false
+hplip:x:127:7:HPLIP system user,,,:/run/hplip:/bin/false
+gdm:x:128:134:Gnome Display Manager:/var/lib/gdm3:/bin/false
+bogdan:x:1000:1000:Trifan Bogdan,,,:/home/bogdan:/bin/bash
+mongodb:x:129:65534::/home/mongodb:/usr/sbin/nologin
+lightdm:x:130:140:Light Display Manager:/var/lib/lightdm:/bin/false
+
+Test mkdir_error.sh
+
+Test mkdir_multiple.sh
+
+Test mkdir_path_multiple.sh
+
+Test mkdir_path.sh
+
+Test mkdir_simple.sh
+
+Test mkdir_spaces.sh
+
+Test rmdir_empty_error.sh
+
+Test rmdir_exists_error.sh
+
+Test rmdir_link.sh
+
+Test rmdir_multiple.sh
+
+Test rmdir_simple.sh
+
+Test touch_a.sh
+thread 'main' panicked at src/main.rs:896:9:
+not yet implemented
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+Test touch_m.sh
+thread 'main' panicked at src/main.rs:901:9:
+not yet implemented
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+Test touch_no_create_new.sh
+
+
+Test touch_simple_exists.sh
+
+
+Test touch_simple.sh
+
+Test ln_error.sh
+
+Test ln_simple.sh
+
+Test ln_s.sh
+
+Test ln_symbolic.sh
+
+Test echo_multiple.sh
+lorem ipsums
+
+Test echo_newline_multiple.sh
+ana are mere
+Test echo_newline_simple.sh
+loremipsum
+Test echo_simple.sh
+loremipsum
+
+Test echo_spaces.sh
+lorem ipsum
+
+Test mv_dir.sh
+
+Test mv_error.sh
+
+Test mv_simple.sh
+
+
+./run_all.sh: line 114: 72: No such file or directory
