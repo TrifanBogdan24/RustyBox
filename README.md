@@ -1,5 +1,11 @@
-# Rustybox
-Describe your solution for the homework.
+# RustBox
+
+## Cod sursa
+
+- [src/main.rs](src/main.rs)
+- [src/README.md](src/README.md)
+
+
 
 ## Verify
 
